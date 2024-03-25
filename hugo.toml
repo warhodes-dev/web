@@ -1,0 +1,65 @@
+baseURL = 'https://warhodes.dev/'
+languageCode = 'en-us'
+title = 'warhodes.dev'
+theme = 'PaperMod'
+
+paginate = 5
+enableRobotsTXT = true
+
+[params]
+title = "warhodes.dev"
+description = "My blog & portfolio"
+keywords = [ "Blog", "Portfolio" ]
+author = "warhodes"
+env = "production"
+#images = [ "<link or path of image for opengraph, twitter-cards>" ]
+dateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+showReadingTime = true
+showShareButtons = true
+showPostNavLinks = true
+showBreadCrumbs = true
+showCodeCopyButtons = true
+comments = true
+hidemeta = false
+hideSummary = false
+showtoc = true
+tocopen = true
+#editPost = { URL = <path_to_repo>, text = "Suggest changes", appendFilePath = true }
+
+[params.assets]
+favicon = "assets/favicon.ico"
+favicon16x16 = "assets/favicon-16x16.png"
+favicon32x32 = "assets/favicon-32x32.png"
+apple_touch_icon = "assets/apple-touch-icon.png"
+
+[params.label]
+icon = "assets/logo.png"
+iconHeight = 45
+
+[params.homeInfoParams]
+title = "Home"
+content = "This is the home page"
+
+[params.editPost]
+URL = <path_to_repo>
+text = "Suggest changes"
+appendFilePath = true
+
+[menu]
+    [[menu.main]]
+    identifier = "categories"
+    name = "categories"
+    url = "/categories/"
+    weight = 10
+    [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 20
+    [[menu.main]]
+    identifier = "example"
+    name = "example"
+    url = "https://example.org"
+    weight = 30

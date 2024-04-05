@@ -102,7 +102,7 @@
                     height="45">
                     <script>
                         if (document.body.className.includes("dark")) {
-                            document.getElementById("siteLogo").src = "assets/logo_light.png";
+                            document.getElementById("siteLogo").src = "/assets/logo_light.png";
                         }
                     </script>warhodes.dev</a>
             <div class="logo-switches">
@@ -162,7 +162,7 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">My First Post
+    <h2 class="entry-hint-parent">Emulation
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
           <path
@@ -172,10 +172,28 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>Introduction This is my first post on my website. This uses markdown. Bold, italics?. sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;John: Hello John, how are you? loop Healthcheck John-&gt;&gt;John: Fight against hypochondria end Note right of John: Rational thoughts prevail! John--&gt;&gt;Alice: Great! John-&gt;&gt;Bob: How about you? Bob--&gt;&gt;John: Jolly good! Made with Hugo</p>
+    <p></p>
   </div>
-  <footer class="entry-footer"><span title='2024-03-22 12:55:41 -0400 EDT'>March 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;warhodes</footer>
-  <a class="entry-link" aria-label="post link to My First Post" href="http://localhost:1313/posts/my-first-post/"></a>
+  <footer class="entry-footer"><span title='2024-04-03 11:26:34 -0400 EDT'>April 3, 2024</span>&nbsp;·&nbsp;0 min&nbsp;·&nbsp;warhodes</footer>
+  <a class="entry-link" aria-label="post link to Emulation" href="http://localhost:1313/posts/emulation/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Creating This Site
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>The first few attempts I made at creating a website were pretty abysmal. My instinct tells me that if I want to learn the web, I better make my site from scratch in order to maximize my exposure to as many technical details as possible. However, this strategy turns out to be a complete meme, and my website has been on the backburner for years now. Every time I start I get bored and quit after “CSS Tutorial #31: Rotating a Div”....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-03-22 12:55:41 -0400 EDT'>March 22, 2024</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;warhodes</footer>
+  <a class="entry-link" aria-label="post link to Creating This Site" href="http://localhost:1313/posts/my-first-post/"></a>
 </article>
     </main>
     
@@ -241,11 +259,11 @@
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
-            document.getElementById("siteLogo").src = "assets/logo.png";
+            document.getElementById("siteLogo").src = "/assets/logo.png";
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
-            document.getElementById("siteLogo").src = "assets/logo_light.png";
+            document.getElementById("siteLogo").src = "/assets/logo_light.png";
         }
     })
 

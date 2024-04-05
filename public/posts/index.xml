@@ -6,15 +6,21 @@
     <description>Recent content in Posts on warhodes.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Mar 2024 12:55:41 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2024 11:26:34 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>Emulation</title>
+      <link>http://localhost:1313/posts/emulation/</link>
+      <pubDate>Wed, 03 Apr 2024 11:26:34 -0400</pubDate>
+      <guid>http://localhost:1313/posts/emulation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Creating This Site</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 22 Mar 2024 12:55:41 -0400</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>Introduction This is my first post on my website. This uses markdown. Bold, italics?.
-sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;John: Hello John, how are you? loop Healthcheck John-&gt;&gt;John: Fight against hypochondria end Note right of John: Rational thoughts prevail! John--&gt;&gt;Alice: Great! John-&gt;&gt;Bob: How about you? Bob--&gt;&gt;John: Jolly good! Made with Hugo</description>
+      <description>The first few attempts I made at creating a website were pretty abysmal. My instinct tells me that if I want to learn the web, I better make my site from scratch in order to maximize my exposure to as many technical details as possible. However, this strategy turns out to be a complete meme, and my website has been on the backburner for years now. Every time I start I get bored and quit after &amp;ldquo;CSS Tutorial #31: Rotating a Div&amp;rdquo;.</description>
     </item>
   </channel>
 </rss>

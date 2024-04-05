@@ -101,7 +101,7 @@
                     height="45">
                     <script>
                         if (document.body.className.includes("dark")) {
-                            document.getElementById("siteLogo").src = "assets/logo_light.png";
+                            document.getElementById("siteLogo").src = "/assets/logo_light.png";
                         }
                     </script>warhodes.dev</a>
             <div class="logo-switches">
@@ -155,10 +155,10 @@
 <main class="main"> 
 <article class="first-entry home-info">
     <header class="entry-header">
-        <h1>Home</h1>
+        <h1>Programming<br>Scripting<br>Tweaking</h1>
     </header>
     <div class="entry-content">
-        This is the home page
+        
     </div>
     <footer class="entry-footer">
         <div class="social-icons" >
@@ -169,7 +169,20 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">My First Post
+    <h2 class="entry-hint-parent">Emulation with Chip8
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This is going to be a multi part series where I detail the process of creating a Chip8 emulator from scratch. This guide will be targetted towards intermediate programmers (or ambitious beginners) who are interested in the principles of emulation and want to get their feet wet with an emulator project.
+I’ve done this project in Rust with a SLD2 renderer, but you can use any language or graphics library of your choosing....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-04-03 11:26:34 -0400 EDT'>April 3, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;warhodes</footer>
+  <a class="entry-link" aria-label="post link to Emulation with Chip8" href="http://localhost:1313/posts/emulation/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Creating This Site
       <span class="entry-hint" title="Draft">
         <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
           <path
@@ -179,10 +192,10 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>Introduction This is my first post on my website. This uses markdown. Bold, italics?. sequenceDiagram participant Alice participant Bob Alice-&gt;&gt;John: Hello John, how are you? loop Healthcheck John-&gt;&gt;John: Fight against hypochondria end Note right of John: Rational thoughts prevail! John--&gt;&gt;Alice: Great! John-&gt;&gt;Bob: How about you? Bob--&gt;&gt;John: Jolly good! Made with Hugo</p>
+    <p>My instinct tells me that if I want to learn the web, I better make my site completely from scratch in order to maximize my exposure to as many technical details as possible. However, this turns out to be a pretty bad strategy if my goal is an actual working website, I tend to get bored and quit after going 50 wikipedia layers deep into the history of ECMAScript or something....</p>
   </div>
-  <footer class="entry-footer"><span title='2024-03-22 12:55:41 -0400 EDT'>March 22, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;warhodes</footer>
-  <a class="entry-link" aria-label="post link to My First Post" href="http://localhost:1313/posts/my-first-post/"></a>
+  <footer class="entry-footer"><span title='2024-03-22 12:55:41 -0400 EDT'>March 22, 2024</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;warhodes</footer>
+  <a class="entry-link" aria-label="post link to Creating This Site" href="http://localhost:1313/posts/my-first-post/"></a>
 </article>
     </main>
     
@@ -248,11 +261,11 @@
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
-            document.getElementById("siteLogo").src = "assets/logo.png";
+            document.getElementById("siteLogo").src = "/assets/logo.png";
         } else {
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
-            document.getElementById("siteLogo").src = "assets/logo_light.png";
+            document.getElementById("siteLogo").src = "/assets/logo_light.png";
         }
     })
 

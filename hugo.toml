@@ -17,16 +17,15 @@ dateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
 showReadingTime = true
-showShareButtons = true
+showShareButtons = false
 showPostNavLinks = true
 showBreadCrumbs = true
 showCodeCopyButtons = true
 comments = true
 hidemeta = false
 hideSummary = false
-showtoc = true
-tocopen = true
-#editPost = { URL = <path_to_repo>, text = "Suggest changes", appendFilePath = true }
+showtoc = false
+tocopen = false
 
 [params.assets]
 favicon = "assets/favicon.ico"
@@ -39,13 +38,8 @@ icon = "assets/logo.png"
 iconHeight = 45
 
 [params.homeInfoParams]
-title = "Home"
-content = "This is the home page"
-
-[params.editPost]
-URL = <path_to_repo>
-text = "Suggest changes"
-appendFilePath = true
+title = "Programming<br>Scripting<br>Tweaking"
+content = ""
 
 [menu]
     [[menu.main]]
@@ -63,3 +57,10 @@ appendFilePath = true
     name = "example"
     url = "https://example.org"
     weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      footnote = true
+    [markup.goldmark.renderer]
+      unsafe = true
